@@ -1,0 +1,31 @@
+{
+    "name": "frontend",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@quasar/extras": "^1.16.9",
+        "ky": "^1.2.0",
+        "path": "^0.12.7",
+        "pinia": "^2.1.7",
+        "quasar": "^2.14.3",
+        "vue": "^3.3.11",
+        "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+        "@quasar/vite-plugin": "^1.6.0",
+        "@types/node": "^20.11.16",
+        "@types/vue": "^2.0.0",
+        "@vitejs/plugin-vue": "^4.5.2",
+        "prettier": "^3.2.5",
+        "sass": "^1.33.0",
+        "typescript": "^5.2.2",
+        "vite": "^5.0.8",
+        "vue-tsc": "^1.8.25"
+    }
+}
