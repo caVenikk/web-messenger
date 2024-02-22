@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router';
-import home from '~/views/home.vue';
+import home from '~/pages/home.vue';
+import signIn from '~/pages/signIn.vue';
 
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
         name: 'home',
         component: home,
+    },
+    {
+        path: '/auth',
+        name: 'auth',
+        component: signIn,
     },
     // Not found
     {

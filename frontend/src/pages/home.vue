@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-    <div class="q-mx-auto wrapper">
+    <div class="q-mx-auto wrapper q-pt-lg">
         <q-card bordered class="bg-grey-9 my-card" dark>
             <q-card-section> Hello, World!</q-card-section>
 

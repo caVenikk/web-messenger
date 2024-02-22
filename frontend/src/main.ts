@@ -6,10 +6,10 @@ import router from '~/router';
 
 // Import Quasar
 import { Quasar } from 'quasar';
-import quasarIconSet from 'quasar/icon-set/fontawesome-v6';
 
 // Import icon libraries
-import '@quasar/extras/fontawesome-v6/fontawesome-v6.css';
+import quasarIconSet from 'quasar/icon-set/eva-icons';
+import '@quasar/extras/eva-icons/eva-icons.css';
 
 // Import Quasar css
 import 'quasar/src/css/index.sass';
